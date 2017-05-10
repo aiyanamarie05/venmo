@@ -7,25 +7,22 @@ mini venmo supports two modes of execution. `cd` into the directory where you ex
 
 1. to start interactive mode just type `./mini-venmo.sh`
 
-
-    $./mini-venmo.sh
-    mini venmo started in interactive mode. Enter help to see manual.
-    > help
-    user <name> : to create a user. e.g. user Himanshu
-    add <user> <card number> : to add a credit card on user. e.g. add Himanshu 5555555555554444 
-    balance <user> : to view balance of a user e.g. balance Himanshu 
-    pay <actor> <target> <$amount> <note> : pay someone e.g. pay Himanshu Lisa $10.50 for coffee 
-    feed <user> : shows activity feed of a user e.g. feed Himanshu 
-    help : brings up manual 
-    close : closes mini-venmo
+        $./mini-venmo.sh
+        mini venmo started in interactive mode. Enter help to see manual.
+        > help
+        user <name> : to create a user. e.g. user Himanshu
+        add <user> <card number> : to add a credit card on user. e.g. add Himanshu 5555555555554444 
+        balance <user> : to view balance of a user e.g. balance Himanshu 
+        pay <actor> <target> <$amount> <note> : pay someone e.g. pay Himanshu Lisa $10.50 for coffee 
+        feed <user> : shows activity feed of a user e.g. feed Himanshu 
+        help : brings up manual 
+        close : closes mini-venmo
 
 2. from a file of newline-delimited commands, when provided with one argument. Following example will accept input from input.txt file and will create output in a file named output.txt
 
-
-    $./mini-venmo.sh input.txt
+        $./mini-venmo.sh input.txt
    
 ## How to run tests
-
 
     $./mini-venmo-test.sh
     
